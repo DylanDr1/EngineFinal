@@ -12,6 +12,10 @@ The implementation for the command provides movement for the character (the gun)
 
 ## Object Pooling
 
+Using object pooling allowed for the game to be more optimized, this was done using spawning in some of the birds. Using the pool script, different objects were spawned in at different locations determined by an empty object, this allowed for a bit of optimization to be present when spawning the enemies in. Now while it doesn’t help with the performance basically at all because the game is so simple, if there were hundreds of them spawning in every second, it would alleviate a little bit of the load off the system. 
+
+![pool](https://github.com/user-attachments/assets/c349524a-6b0a-450c-af4b-48b3a604bae2)
+
 
 ## Other pattern (DLL/Plugin)
 
